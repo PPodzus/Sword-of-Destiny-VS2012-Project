@@ -1,0 +1,2550 @@
+Player
+SLOT = 0
+Difficulty = 0
+Statistics =   0 0 0 0 0 0 0 0 0 0 0 0 0
+WinItemLocation = 16 8
+WinLocRandomizer = 0 -1
+StartingPos = 10 8
+Player
+  Player 10 8 5 6 0 5 5 0  Player
+  Items
+    Item = FoodBag14 14 0
+    Item = Sword 1 0
+  End
+ No
+End
+NPCs
+  AlliedMercenary0 0 0 5 7 0 1 8 0  Mercenary
+  Items
+    Item = FoodBag14 14 0
+  End
+  AlliedSwordman1 0 0 6 4 0 9 4 0  Swordman
+  Items
+    Item = FoodBag14 14 0
+  End
+  AlliedDwarf2 0 0 4 2 0 8 9 0  Dwarf
+  Items
+    Item = FoodBag14 14 0
+  End
+  AlliedDwarf3 0 0 8 1 0 7 5 0  Dwarf
+  Items
+    Item = FoodBag14 14 0
+  End
+End
+Bands
+  Band = PlayerBand
+    Member = Player
+    Member = AlliedMercenary0
+    Member = AlliedSwordman1
+    Member = AlliedDwarf2
+    Member = AlliedDwarf3
+  End
+End
+Map = COMPLEX
+  Tile = 0 0
+    Terrain = Hill
+    Band = None
+    Visited = No
+  End
+  Tile = 1 0
+    Terrain = Swamp
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 2 0
+    Terrain = Mountain
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 3 0
+    Terrain = Desert
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 4 0
+    Terrain = Forest
+    Item = Evil Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 5 0
+    Terrain = Countryside
+    Item = Evil Sword
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 6 0
+    Terrain = Hill
+    Band = None
+    Visited = No
+  End
+  Tile = 7 0
+    Terrain = Swamp
+    Item = Sword
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 8 0
+    Terrain = Hill
+    Item = Charisma Amulet
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 9 0
+    Terrain = Swamp
+    Band = None
+    Visited = No
+  End
+  Tile = 10 0
+    Terrain = Farmland
+    Band = None
+    Visited = No
+  End
+  Tile = 11 0
+    Terrain = Hill
+    Band = None
+    Visited = No
+  End
+  Tile = 12 0
+    Terrain = Hill
+    Item = Evil Amulet
+    Item = Food
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 13 0
+    Terrain = Swamp
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 14 0
+    Terrain = Mountain
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 15 0
+    Terrain = Desert
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 16 0
+    Terrain = Forest
+    Item = Food
+    Item = Potion
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 17 0
+    Terrain = Farmland
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 18 0
+    Terrain = Hill
+    Band = None
+    Visited = No
+  End
+  Tile = 19 0
+    Terrain = Countryside
+    Item = Charisma Amulet
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 0 1
+    Terrain = Hill
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 1 1
+    Terrain = Farmland
+    Band = None
+    Visited = No
+  End
+  Tile = 2 1
+    Terrain = Farmland
+    Band = None
+    Visited = No
+  End
+  Tile = 3 1
+    Terrain = Swamp
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 4 1
+    Terrain = Desert
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 5 1
+    Terrain = Mountain
+    Item = Charisma Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 6 1
+    Terrain = Desert
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 7 1
+    Terrain = Mountain
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 8 1
+    Terrain = Forest
+    Item = Charisma Amulet
+    Item = Food
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 9 1
+    Terrain = Swamp
+    Band = None
+    Visited = No
+  End
+  Tile = 10 1
+    Terrain = Farmland
+    Item = Charisma Amulet
+    Item = Sword
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 11 1
+    Terrain = Hill
+    Item = Charisma Amulet
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 12 1
+    Terrain = Desert
+    Item = Charisma Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 13 1
+    Terrain = Swamp
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 14 1
+    Terrain = Mountain
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 15 1
+    Terrain = Desert
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 16 1
+    Terrain = Swamp
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 17 1
+    Terrain = Desert
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 18 1
+    Terrain = Hill
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 19 1
+    Terrain = Hill
+    Band = None
+    Visited = No
+  End
+  Tile = 0 2
+    Terrain = Hill
+    Item = Sword
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 1 2
+    Terrain = Countryside
+    Band = None
+    Visited = No
+  End
+  Tile = 2 2
+    Terrain = Swamp
+    Item = Charisma Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 3 2
+    Terrain = Swamp
+    Band = None
+    Visited = No
+  End
+  Tile = 4 2
+    Terrain = Mountain
+    Band = None
+    Visited = No
+  End
+  Tile = 5 2
+    Terrain = Swamp
+    Item = Evil Amulet
+    Item = Sword
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 6 2
+    Terrain = Mountain
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 7 2
+    Terrain = Swamp
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 8 2
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 9 2
+    Terrain = Farmland
+    Band = None
+    Visited = No
+  End
+  Tile = 10 2
+    Terrain = Swamp
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 11 2
+    Terrain = Hill
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 12 2
+    Terrain = Hill
+    Item = Charisma Amulet
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 13 2
+    Terrain = Farmland
+    Item = Charisma Amulet
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 14 2
+    Terrain = Hill
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 15 2
+    Terrain = Mountain
+    Band = None
+    Visited = No
+  End
+  Tile = 16 2
+    Terrain = Mountain
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 17 2
+    Terrain = Farmland
+    Item = Evil Amulet
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 18 2
+    Terrain = Swamp
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 19 2
+    Terrain = Farmland
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 0 3
+    Terrain = Hill
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 1 3
+    Terrain = Desert
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 2 3
+    Terrain = Swamp
+    Band = None
+    Visited = No
+  End
+  Tile = 3 3
+    Terrain = Mountain
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 4 3
+    Terrain = Mountain
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 5 3
+    Terrain = Forest
+    Band = None
+    Visited = No
+  End
+  Tile = 6 3
+    Terrain = Hill
+    Item = Evil Amulet
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 7 3
+    Terrain = Forest
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 8 3
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 9 3
+    Terrain = Desert
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 10 3
+    Terrain = Countryside
+    Item = Food
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 11 3
+    Terrain = Swamp
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 12 3
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 13 3
+    Terrain = Desert
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 14 3
+    Terrain = Swamp
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 15 3
+    Terrain = Forest
+    Band = None
+    Visited = No
+  End
+  Tile = 16 3
+    Terrain = Farmland
+    Item = Evil Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 17 3
+    Terrain = Mountain
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 18 3
+    Terrain = Countryside
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 19 3
+    Terrain = Mountain
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 0 4
+    Terrain = Farmland
+    Item = Evil Amulet
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 1 4
+    Terrain = Forest
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 2 4
+    Terrain = Hill
+    Band = None
+    Visited = No
+  End
+  Tile = 3 4
+    Terrain = Swamp
+    Band = None
+    Visited = No
+  End
+  Tile = 4 4
+    Terrain = Forest
+    Item = Food
+    Item = Potion
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 5 4
+    Terrain = Hill
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 6 4
+    Terrain = Hill
+    Band = None
+    Visited = No
+  End
+  Tile = 7 4
+    Terrain = Forest
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 8 4
+    Terrain = Farmland
+    Item = Evil Amulet
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 9 4
+    Terrain = Swamp
+    Item = Charisma Amulet
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 10 4
+    Terrain = Swamp
+    Band = None
+    Visited = No
+  End
+  Tile = 11 4
+    Terrain = Mountain
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 12 4
+    Terrain = Farmland
+    Band = None
+    Visited = No
+  End
+  Tile = 13 4
+    Terrain = Mountain
+    Item = Evil Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 14 4
+    Terrain = Desert
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 15 4
+    Terrain = Countryside
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 16 4
+    Terrain = Forest
+    Band = None
+    Visited = No
+  End
+  Tile = 17 4
+    Terrain = Hill
+    Item = Evil Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 18 4
+    Terrain = Mountain
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 19 4
+    Terrain = Forest
+    Item = Charisma Amulet
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 0 5
+    Terrain = Hill
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 1 5
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 2 5
+    Terrain = Mountain
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 3 5
+    Terrain = Swamp
+    Band = None
+    Visited = No
+  End
+  Tile = 4 5
+    Terrain = Swamp
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 5 5
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 6 5
+    Terrain = Mountain
+    Band = None
+    Visited = No
+  End
+  Tile = 7 5
+    Terrain = Swamp
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 8 5
+    Terrain = Mountain
+    Band = None
+    Visited = No
+  End
+  Tile = 9 5
+    Terrain = Swamp
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 10 5
+    Terrain = Countryside
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 11 5
+    Terrain = Hill
+    Item = Charisma Amulet
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 12 5
+    Terrain = Mountain
+    Item = Evil Sword
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 13 5
+    Terrain = Desert
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 14 5
+    Terrain = Forest
+    Band = None
+    Visited = No
+  End
+  Tile = 15 5
+    Terrain = Forest
+    Item = Evil Amulet
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 16 5
+    Terrain = Mountain
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 17 5
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 18 5
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 19 5
+    Terrain = Mountain
+    Item = Sword
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 0 6
+    Terrain = Countryside
+    Band = None
+    Visited = No
+  End
+  Tile = 1 6
+    Terrain = Countryside
+    Item = Food
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 2 6
+    Terrain = Mountain
+    Item = Charisma Amulet
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 3 6
+    Terrain = Swamp
+    Item = Food
+    Item = Sword
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 4 6
+    Terrain = Swamp
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 5 6
+    Terrain = Desert
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 6 6
+    Terrain = Hill
+    Item = Potion
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 7 6
+    Terrain = Swamp
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 8 6
+    Terrain = Mountain
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 9 6
+    Terrain = Forest
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 10 6
+    Terrain = Mountain
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 11 6
+    Terrain = Hill
+    Item = Evil Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 12 6
+    Terrain = Forest
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 13 6
+    Terrain = Countryside
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 14 6
+    Terrain = Swamp
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 15 6
+    Terrain = Hill
+    Band = None
+    Visited = No
+  End
+  Tile = 16 6
+    Terrain = Mountain
+    Band = None
+    Visited = No
+  End
+  Tile = 17 6
+    Terrain = Swamp
+    Band = None
+    Visited = No
+  End
+  Tile = 18 6
+    Terrain = Hill
+    Item = Charisma Amulet
+    Item = Food
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 19 6
+    Terrain = Countryside
+    Item = Food
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 0 7
+    Terrain = Mountain
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 1 7
+    Terrain = Swamp
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 2 7
+    Terrain = Forest
+    Item = Charisma Amulet
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 3 7
+    Terrain = Swamp
+    Item = Evil Amulet
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 4 7
+    Terrain = Hill
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 5 7
+    Terrain = Hill
+    Item = Evil Amulet
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 6 7
+    Terrain = Mountain
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 7 7
+    Terrain = Countryside
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 8 7
+    Terrain = Swamp
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 9 7
+    Terrain = Forest
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 10 7
+    Terrain = Swamp
+    Band = None
+    Visited = No
+  End
+  Tile = 11 7
+    Terrain = Mountain
+    Item = Charisma Amulet
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 12 7
+    Terrain = Farmland
+    Band = None
+    Visited = No
+  End
+  Tile = 13 7
+    Terrain = Swamp
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 14 7
+    Terrain = Countryside
+    Item = Charisma Amulet
+    Item = Evil Amulet
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 15 7
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 16 7
+    Terrain = Forest
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 17 7
+    Terrain = Countryside
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 18 7
+    Terrain = Forest
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 19 7
+    Terrain = Swamp
+    Item = Food
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 0 8
+    Terrain = Farmland
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 1 8
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 2 8
+    Terrain = Mountain
+    Band = None
+    Visited = No
+  End
+  Tile = 3 8
+    Terrain = Mountain
+    Item = Charisma Amulet
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 4 8
+    Terrain = Countryside
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 5 8
+    Terrain = Farmland
+    Item = Evil Amulet
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 6 8
+    Terrain = Countryside
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 7 8
+    Terrain = Hill
+    Band = None
+    Visited = No
+  End
+  Tile = 8 8
+    Terrain = Mountain
+    Item = Evil Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 9 8
+    Terrain = Countryside
+    Band = None
+    Visited = No
+  End
+  Tile = 10 8
+    Terrain = Mountain
+    Band = None
+    Visited = Yes
+  End
+  Tile = 11 8
+    Terrain = Swamp
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 12 8
+    Terrain = Countryside
+    Item = Charisma Amulet
+    Item = Evil Sword
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 13 8
+    Terrain = Swamp
+    Item = Charisma Amulet
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 14 8
+    Terrain = Countryside
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 15 8
+    Terrain = Hill
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 16 8
+    Terrain = Mountain
+    Item = Sword of Destiny
+    Item = Charisma Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 17 8
+    Terrain = Forest
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 18 8
+    Terrain = Swamp
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 19 8
+    Terrain = Swamp
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 0 9
+    Terrain = Swamp
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 1 9
+    Terrain = Desert
+    Item = Sword
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 2 9
+    Terrain = Mountain
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 3 9
+    Terrain = Hill
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 4 9
+    Terrain = Countryside
+    Item = Charisma Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 5 9
+    Terrain = Swamp
+    Item = Food
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 6 9
+    Terrain = Hill
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 7 9
+    Terrain = Countryside
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 8 9
+    Terrain = Forest
+    Item = Sword
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 9 9
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 10 9
+    Terrain = Swamp
+    Item = Charisma Amulet
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 11 9
+    Terrain = Hill
+    Item = Food
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 12 9
+    Terrain = Mountain
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 13 9
+    Terrain = Countryside
+    Item = Food
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 14 9
+    Terrain = Forest
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 15 9
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 16 9
+    Terrain = Hill
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 17 9
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 18 9
+    Terrain = Forest
+    Item = Evil Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 19 9
+    Terrain = Hill
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 0 10
+    Terrain = Forest
+    Item = Food
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 1 10
+    Terrain = Forest
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 2 10
+    Terrain = Mountain
+    Item = Potion
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 3 10
+    Terrain = Countryside
+    Item = Evil Amulet
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 4 10
+    Terrain = Forest
+    Item = Potion
+    Item = Sword
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 5 10
+    Terrain = Hill
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 6 10
+    Terrain = Desert
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 7 10
+    Terrain = Forest
+    Band = None
+    Visited = No
+  End
+  Tile = 8 10
+    Terrain = Mountain
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 9 10
+    Terrain = Mountain
+    Band = None
+    Visited = No
+  End
+  Tile = 10 10
+    Terrain = Desert
+    Item = Evil Sword
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 11 10
+    Terrain = Mountain
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 12 10
+    Terrain = Farmland
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 13 10
+    Terrain = Forest
+    Item = Evil Amulet
+    Item = Food
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 14 10
+    Terrain = Desert
+    Item = Evil Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 15 10
+    Terrain = Forest
+    Band = None
+    Visited = No
+  End
+  Tile = 16 10
+    Terrain = Hill
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 17 10
+    Terrain = Desert
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 18 10
+    Terrain = Farmland
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 19 10
+    Terrain = Countryside
+    Item = Charisma Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 0 11
+    Terrain = Farmland
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 1 11
+    Terrain = Forest
+    Item = Evil Amulet
+    Item = Evil Sword
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 2 11
+    Terrain = Forest
+    Band = None
+    Visited = No
+  End
+  Tile = 3 11
+    Terrain = Mountain
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 4 11
+    Terrain = Farmland
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 5 11
+    Terrain = Forest
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 6 11
+    Terrain = Farmland
+    Band = None
+    Visited = No
+  End
+  Tile = 7 11
+    Terrain = Swamp
+    Band = None
+    Visited = No
+  End
+  Tile = 8 11
+    Terrain = Farmland
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 9 11
+    Terrain = Mountain
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 10 11
+    Terrain = Hill
+    Band = None
+    Visited = No
+  End
+  Tile = 11 11
+    Terrain = Swamp
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 12 11
+    Terrain = Desert
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 13 11
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 14 11
+    Terrain = Countryside
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 15 11
+    Terrain = Countryside
+    Item = Evil Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 16 11
+    Terrain = Countryside
+    Item = Evil Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 17 11
+    Terrain = Hill
+    Item = Charisma Amulet
+    Item = Evil Amulet
+    Item = Evil Sword
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 18 11
+    Terrain = Desert
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 19 11
+    Terrain = Forest
+    Band = None
+    Visited = No
+  End
+  Tile = 0 12
+    Terrain = Forest
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 1 12
+    Terrain = Forest
+    Item = Food
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 2 12
+    Terrain = Forest
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 3 12
+    Terrain = Farmland
+    Item = Evil Sword
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 4 12
+    Terrain = Farmland
+    Item = Charisma Amulet
+    Item = Evil Sword
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 5 12
+    Terrain = Hill
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 6 12
+    Terrain = Farmland
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 7 12
+    Terrain = Farmland
+    Item = Food
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 8 12
+    Terrain = Mountain
+    Item = Evil Sword
+    Item = Potion
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 9 12
+    Terrain = Desert
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 10 12
+    Terrain = Desert
+    Item = Charisma Amulet
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 11 12
+    Terrain = Hill
+    Item = Food
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 12 12
+    Terrain = Swamp
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 13 12
+    Terrain = Forest
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 14 12
+    Terrain = Hill
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 15 12
+    Terrain = Countryside
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 16 12
+    Terrain = Swamp
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 17 12
+    Terrain = Mountain
+    Band = None
+    Visited = No
+  End
+  Tile = 18 12
+    Terrain = Swamp
+    Item = Food
+    Item = Potion
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 19 12
+    Terrain = Forest
+    Item = Charisma Amulet
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 0 13
+    Terrain = Farmland
+    Item = Evil Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 1 13
+    Terrain = Swamp
+    Band = None
+    Visited = No
+  End
+  Tile = 2 13
+    Terrain = Swamp
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 3 13
+    Terrain = Forest
+    Item = Evil Amulet
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 4 13
+    Terrain = Farmland
+    Band = None
+    Visited = No
+  End
+  Tile = 5 13
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 6 13
+    Terrain = Desert
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 7 13
+    Terrain = Mountain
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 8 13
+    Terrain = Hill
+    Item = Evil Amulet
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 9 13
+    Terrain = Mountain
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 10 13
+    Terrain = Hill
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 11 13
+    Terrain = Countryside
+    Item = Food
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 12 13
+    Terrain = Countryside
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 13 13
+    Terrain = Countryside
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 14 13
+    Terrain = Countryside
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 15 13
+    Terrain = Countryside
+    Band = None
+    Visited = No
+  End
+  Tile = 16 13
+    Terrain = Mountain
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 17 13
+    Terrain = Mountain
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 18 13
+    Terrain = Countryside
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 19 13
+    Terrain = Desert
+    Item = Charisma Amulet
+    Item = Evil Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 0 14
+    Terrain = Mountain
+    Item = Evil Sword
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 1 14
+    Terrain = Farmland
+    Band = None
+    Visited = No
+  End
+  Tile = 2 14
+    Terrain = Countryside
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 3 14
+    Terrain = Hill
+    Item = Charisma Amulet
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 4 14
+    Terrain = Farmland
+    Item = Evil Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 5 14
+    Terrain = Swamp
+    Item = Charisma Amulet
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 6 14
+    Terrain = Mountain
+    Item = Evil Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 7 14
+    Terrain = Farmland
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 8 14
+    Terrain = Swamp
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 9 14
+    Terrain = Swamp
+    Item = Charisma Amulet
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 10 14
+    Terrain = Hill
+    Item = Charisma Amulet
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 11 14
+    Terrain = Mountain
+    Item = Evil Amulet
+    Item = Evil Sword
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 12 14
+    Terrain = Swamp
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 13 14
+    Terrain = Farmland
+    Band = None
+    Visited = No
+  End
+  Tile = 14 14
+    Terrain = Swamp
+    Band = None
+    Visited = No
+  End
+  Tile = 15 14
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 16 14
+    Terrain = Forest
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 17 14
+    Terrain = Swamp
+    Band = None
+    Visited = No
+  End
+  Tile = 18 14
+    Terrain = Countryside
+    Item = Evil Amulet
+    Item = Evil Sword
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 19 14
+    Terrain = Forest
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 0 15
+    Terrain = Swamp
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 1 15
+    Terrain = Countryside
+    Band = None
+    Visited = No
+  End
+  Tile = 2 15
+    Terrain = Countryside
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 3 15
+    Terrain = Swamp
+    Band = None
+    Visited = No
+  End
+  Tile = 4 15
+    Terrain = Swamp
+    Item = Evil Amulet
+    Item = Sword
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 5 15
+    Terrain = Countryside
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 6 15
+    Terrain = Forest
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 7 15
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 8 15
+    Terrain = Mountain
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 9 15
+    Terrain = Hill
+    Band = None
+    Visited = No
+  End
+  Tile = 10 15
+    Terrain = Desert
+    Item = Charisma Amulet
+    Item = Evil Sword
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 11 15
+    Terrain = Farmland
+    Band = None
+    Visited = No
+  End
+  Tile = 12 15
+    Terrain = Hill
+    Band = None
+    Visited = No
+  End
+  Tile = 13 15
+    Terrain = Farmland
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 14 15
+    Terrain = Forest
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 15 15
+    Terrain = Farmland
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 16 15
+    Terrain = Forest
+    Item = Evil Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 17 15
+    Terrain = Hill
+    Band = None
+    Visited = No
+  End
+  Tile = 18 15
+    Terrain = Forest
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 19 15
+    Terrain = Swamp
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 0 16
+    Terrain = Countryside
+    Item = Evil Sword
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 1 16
+    Terrain = Desert
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 2 16
+    Terrain = Mountain
+    Item = Potion
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 3 16
+    Terrain = Desert
+    Item = Charisma Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 4 16
+    Terrain = Forest
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 5 16
+    Terrain = Hill
+    Item = Evil Amulet
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 6 16
+    Terrain = Swamp
+    Item = Evil Amulet
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 7 16
+    Terrain = Mountain
+    Item = Clue
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 8 16
+    Terrain = Swamp
+    Band = None
+    Visited = No
+  End
+  Tile = 9 16
+    Terrain = Swamp
+    Item = Food
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 10 16
+    Terrain = Countryside
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 11 16
+    Terrain = Hill
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 12 16
+    Terrain = Desert
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 13 16
+    Terrain = Swamp
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 14 16
+    Terrain = Countryside
+    Band = None
+    Visited = No
+  End
+  Tile = 15 16
+    Terrain = Mountain
+    Band = None
+    Visited = No
+  End
+  Tile = 16 16
+    Terrain = Farmland
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 17 16
+    Terrain = Hill
+    Band = None
+    Visited = No
+  End
+  Tile = 18 16
+    Terrain = Forest
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 19 16
+    Terrain = Mountain
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 0 17
+    Terrain = Hill
+    Band = None
+    Visited = No
+  End
+  Tile = 1 17
+    Terrain = Desert
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 2 17
+    Terrain = Farmland
+    Item = Charisma Amulet
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 3 17
+    Terrain = Hill
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 4 17
+    Terrain = Desert
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 5 17
+    Terrain = Forest
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 6 17
+    Terrain = Farmland
+    Item = Charisma Amulet
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 7 17
+    Terrain = Farmland
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 8 17
+    Terrain = Forest
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 9 17
+    Terrain = Countryside
+    Band = None
+    Visited = No
+  End
+  Tile = 10 17
+    Terrain = Hill
+    Item = Charisma Amulet
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 11 17
+    Terrain = Mountain
+    Item = Evil Amulet
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 12 17
+    Terrain = Swamp
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 13 17
+    Terrain = Swamp
+    Item = Evil Amulet
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 14 17
+    Terrain = Swamp
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 15 17
+    Terrain = Mountain
+    Band = None
+    Visited = No
+  End
+  Tile = 16 17
+    Terrain = Forest
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 17 17
+    Terrain = Mountain
+    Item = Charisma Amulet
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 18 17
+    Terrain = Mountain
+    Band = None
+    Visited = No
+  End
+  Tile = 19 17
+    Terrain = Desert
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 0 18
+    Terrain = Countryside
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 1 18
+    Terrain = Swamp
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 2 18
+    Terrain = Desert
+    Item = Evil Amulet
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 3 18
+    Terrain = Forest
+    Item = Food
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 4 18
+    Terrain = Forest
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 5 18
+    Terrain = Mountain
+    Item = Evil Sword
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 6 18
+    Terrain = Farmland
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 7 18
+    Terrain = Desert
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 8 18
+    Terrain = Countryside
+    Item = Evil Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 9 18
+    Terrain = Swamp
+    Item = Charisma Amulet
+    Band = None
+    Visited = No
+  End
+  Tile = 10 18
+    Terrain = Farmland
+    Item = Charisma Amulet
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 11 18
+    Terrain = Farmland
+    Item = Sword
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 12 18
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 13 18
+    Terrain = Swamp
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 14 18
+    Terrain = Forest
+    Band = None
+    Visited = No
+  End
+  Tile = 15 18
+    Terrain = Farmland
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 16 18
+    Terrain = Swamp
+    Band = None
+    Visited = No
+  End
+  Tile = 17 18
+    Terrain = Countryside
+    Item = Food
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 18 18
+    Terrain = Mountain
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 19 18
+    Terrain = Forest
+    Item = Potion
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 0 19
+    Terrain = Mountain
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 1 19
+    Terrain = Desert
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 2 19
+    Terrain = Mountain
+    Item = Sword
+    Band = None
+    Visited = No
+  End
+  Tile = 3 19
+    Terrain = Countryside
+    Item = Evil Sword
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 4 19
+    Terrain = Desert
+    Band = None
+    Visited = No
+  End
+  Tile = 5 19
+    Terrain = Farmland
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 6 19
+    Terrain = Hill
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 7 19
+    Terrain = Desert
+    Item = Evil Sword
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 8 19
+    Terrain = Hill
+    Item = Evil Amulet
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 9 19
+    Terrain = Hill
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 10 19
+    Terrain = Hill
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 11 19
+    Terrain = Hill
+    Item = Food
+    Item = Sword
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 12 19
+    Terrain = Hill
+    Item = Food
+    Band = None
+    Visited = No
+  End
+  Tile = 13 19
+    Terrain = Hill
+    Band = None
+    Visited = No
+  End
+  Tile = 14 19
+    Terrain = Hill
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 15 19
+    Terrain = Desert
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 16 19
+    Terrain = Forest
+    Item = Evil Amulet
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 17 19
+    Terrain = Mountain
+    Item = Potion
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+  Tile = 18 19
+    Terrain = Hill
+    Item = Potion
+    Item = Treasure Chest
+    Band = None
+    Visited = No
+  End
+  Tile = 19 19
+    Terrain = Forest
+    Item = Food
+    Item = Potion
+    Band = None
+    Visited = No
+  End
+End
+End
